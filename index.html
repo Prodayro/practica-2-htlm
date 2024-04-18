@@ -1,10 +1,10 @@
 <!-- lt + shit + a -->
 
 <!-- autocompletado: ctrl + spacio -->
-
-<! -- esta etiqueta define que este es un documento de HTML5 -->
+<!-- !DOCTYPE html esta etiqueta define que este es un documento de HTML5 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
     <!-- metadatos de la pagina -->
 <head>
     <!-- modifica el grupo de caracteristicas a usar en este caso utf-8 -->
@@ -18,60 +18,78 @@
 
 <!-- Todo lo que le queramos mostrar al usuario -->
 <body>
-<!-- la etiqueta p siempre para poner parrafos -->
-<!-- lorem ipsum -->
+   <!-- la etiqueta p siempre para poner parrafos -->
+   <!-- lorem ipsum -->
    <p>lo que escribamos aca se va a mostrar en nuestra pagina web</p> 
-   <p>lorem ipsum dolor sit amet comsectetur adipisicing</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum nesciunt odit vel dolores, aspernatur pariatur amet. Eius consequatur placeat nobis aliquid corporis! Voluptatem blanditiis maiores tenetur molestiae ducimus laborum.</p>
    <hr>
+   <p>Lorem ipsum dolor sit amet.</p>
+   <hr>
+   <p>vamos a tener mas parrafos</p>
+   <hr>
+
+   <!-- pre sirve para mantener el formato tal cual se escribe. -->
    <pre> un     texto
-    con
-    salto
-    de 
-    linea
-    <!-- pre sirve para mantener el formato tal cual se escribe. -->
+         con
+         salto
+         de 
+         linea
    </pre>
-<!-- blockquote sirbe para representar citas -->
+
+   <!-- blockquote sirbe para representar citas bibliograficas -->
    <blockquote>
-    "Trabaja duro. Diviértete. Haz historia"
-    <cite>jeff bezos</cite>
+        "Trabaja duro. Diviértete. Haz historia"
+        <cite>jeff bezos</cite>
 </blockquote>
 
 <p>esto es una lista de animales</p>
 <!-- oL es para poner listas ordenadas -->
-<ol tipe="a" start="I" reversed>
+<ol tipe="I" start="3" reversed>
     <li>perro</li>
     <li>gato</li>
     <li>loro</li>
     <li>tigre</li>
     <li>vaca</li>
 </ol>
+
 <!-- uL es para poner listas desordenadas -->
 <ul type="disq">
     <li>perro</li>
     <li>gato</li>
     <li>loro</li>
     <li>tigre</li>
+    <li>vaca</li>
 </ul>
-<!-- dL sirve para mostrar estructuras del tipo -->
+
+<!-- dL sirve para mostrar estructuras del tipo diccionario -->
 <dl>
     <!-- dt es para el concepto -->
-<dt>perro</dt>
-<!-- dd es para la definición  -->
-<dd>Animal peludo de 4 patas</dd>
+    <dt>perro</dt>
+    <!-- dd es para la definición  -->
+    <dd>Animal peludo de 4 patas</dd>
 </dl>
 
-<!-- no tiene semantica, es un comodin -->
+<!-- div no tiene semantica, es un comodin -->
 <div></div>
+
 <!-- a,sirve para poner links -->
 
-<a href="https://www.facebook.com">facebook en otra pestaña</a>
-<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://www.facebook.com">facebook en la misma pestaña</a>
+<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">facebook en otra pestaña</a>
 
-<!-- strong sirve para darle enfasis semantico a una frase o palabra -->
-<p>este es un ejemplo de la
-    /p> <strong>etiqueta strong</strong>
 
-<small>etiqueta small</small>
+<p>
+    este es un ejemplo de la
+    <!-- strong sirve para darle enfasis semantico a una frase o palabra -->
+    <strong>etiqueta strong</strong>
+</p>
+
+<p>
+    este es un ejemplo de la
+    <!-- small sirve para quitarle importancia semantico a una frase o palabra -->
+    <small>etiqueta small</small>
+</p>
+
 <p>
     esta es una forma matematica: x <sup>2</sup>
 </p>
@@ -89,12 +107,14 @@
 </p>
 
 <p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo facilis reprehenderit ex dolor omnis minima laborum iure possimus blanditiis vitae? Aliquid magnam, reprehenderit perferendis modi deleniti iure facere consectetur itaque.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo facilis reprehenderit ex 
     <br>
     <br>
+    dolor omnis minima laborum iure possimus blanditiis vitae? Aliquid magnam, reprehenderit perferendis modi deleniti iure facere consectetur itaque.
 </p>
 
 <p>Esta es una barra de navegacion de redes sociales</p>
+<!-- nav nos indica una barra o menu de navegación -->
 <nav>
     <ul>
         <li>
