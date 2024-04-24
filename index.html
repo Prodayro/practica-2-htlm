@@ -220,8 +220,11 @@
         data="./pdf/prueva .pdf" 
         type="application/pdf"
         height="500px"
-        width="1000xp"
+        width="500px"
     ></object>
+
+    <a href="./pdf/prueva .pdf" download>
+    </a>
 
     <video 
         src="./videos/videoprueva.mp4"
@@ -255,43 +258,34 @@
     <img src="./icon/house.svg" alt="">
 
     <figure>
+        <!-- figcaption sirbe para poner subtitulo a imagen se puede poner arriba o abajo de img segun donde se quiera que aparesca en la pagina. -->
        <figcaption>carro deportivo</figcaption>
-       <img src="./img/carro.jpeg" alt="carro"
-        height="300"
+       <img 
+            src="./img/carro.jpeg" 
+            alt="carro"
+            height="300xp"
         >
     </figure>
 
     <br><br><br><br><br>
 
-    <h1>formulario</h1>
+    <h1>FORMULARIOS</h1>
 
     <form action="">
 
         <label>
             username
-            <imput tipe="text" name="username" pleceholder="username"required></imput>
+            <imput type="text" name="username" pleceholder="username"></imput>
         </label>
-
         <br>
-
         <label for="edad">edad</label>
-
-        <br><br><br><br><br><br><br><br>
-        <hr><hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-
-        <input type="number" name="edad"required>
+        <input id="edad" type="number" name="edad" pleceholder="edad"required>
         <br>
-        <input type="email" name="email"pleceholder="edad" required>
+        <input type="email" name="email"pleceholder="email" required>
         <br>
-        <input type="date" name="date"pleceholder="edad" required>
+        <input type="date" name="date">
         <br>
-        <input type="password" name="password"required>
+        <input type="password" name="password">
         <br>
         <input type="color" name="color">
         <br>
@@ -299,10 +293,11 @@
         <br>
 
         <label>
+            ciudad:
             <select name="ciudad">
                 <option value="Bogotá">Bogotá</option>
                 <option value="Medellin">medellin</option>
-                <option value="cali"></option>
+                <option value="cali">cali</option>
             </select>
         </label>
 
